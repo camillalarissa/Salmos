@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+font-family: 'Ysabeau', sans-serif;
+}
+
+html,body {
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h1 {
+    padding-top: 50px;
+   font-variant: small-caps;
+   margin-bottom: 10px;
+   font-size: 50px;
+}
+p > span {
+    font-weight: bolder;
+    font-size: 1vw;
+}
+header > p{
+    padding-bottom: 50px;
+}
+
+section{
+    padding: 10vh;
+    padding-bottom: 15vh;
+    line-height: 2em;
+    padding-left: 20px;
+    font-size: 28px;
+    box-shadow: 6px 6px 13px 0px black;
+}
+section > p{
+    padding-bottom: 2em;
+    text-shadow: 1px 1px 0px black;
+}
+
+
+.img > p{
+display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.294);
+    color: aliceblue;
+
+}
+
+#img1{
+    background-image: url(img/biblia.jpg);
+    background-position: center bottom;
+    
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#img2{
+background-image: url(img/adoraçao.jpg);
+background-position: center top;
+background-size: cover;
+background-attachment: fixed;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+ a{
+    text-decoration: none;
+    color: azure;
+    
+}
+a:hover{
+color: brown;
+}
